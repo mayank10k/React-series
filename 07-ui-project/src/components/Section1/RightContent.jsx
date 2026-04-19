@@ -1,0 +1,14 @@
+import React from 'react'
+import RightCard from './RightCard'
+
+const Right = () => {
+  return (
+    <div className='h-full p-4 w-2/3 bg-gray-600 flex flex-row justify-evenly'>
+        <RightCard/>
+        <RightCard/>
+        <RightCard/>
+    </div>
+  )
+}
+
+export default Right
